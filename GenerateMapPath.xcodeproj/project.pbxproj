@@ -13,6 +13,12 @@
 		6896EC2025F6BFE000D0D16B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6896EC1F25F6BFE000D0D16B /* Preview Assets.xcassets */; };
 		6896EC2B25F6BFE000D0D16B /* GenerateMapPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6896EC2A25F6BFE000D0D16B /* GenerateMapPathTests.swift */; };
 		6896EC3625F6BFE000D0D16B /* GenerateMapPathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6896EC3525F6BFE000D0D16B /* GenerateMapPathUITests.swift */; };
+		6898BD482611BC1500C6AF31 /* UserAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6898BD472611BC1500C6AF31 /* UserAnnotation.swift */; };
+		68FB1A2A2605D0880090CC18 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FB1A292605D0880090CC18 /* LocationManager.swift */; };
+		68FB1A2F2605D0B40090CC18 /* RoutePlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FB1A2E2605D0B40090CC18 /* RoutePlanner.swift */; };
+		68FB1A342605D8DA0090CC18 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FB1A332605D8DA0090CC18 /* MapView.swift */; };
+		68FB1A392610B8D50090CC18 /* StopAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FB1A382610B8D50090CC18 /* StopAnnotation.swift */; };
+		68FB1A3E2610BB3F0090CC18 /* QualkMapEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FB1A3D2610BB3F0090CC18 /* QualkMapEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		6896EC3125F6BFE000D0D16B /* GenerateMapPathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenerateMapPathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6896EC3525F6BFE000D0D16B /* GenerateMapPathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateMapPathUITests.swift; sourceTree = "<group>"; };
 		6896EC3725F6BFE000D0D16B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6898BD472611BC1500C6AF31 /* UserAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAnnotation.swift; sourceTree = "<group>"; };
+		68FB1A292605D0880090CC18 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		68FB1A2E2605D0B40090CC18 /* RoutePlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePlanner.swift; sourceTree = "<group>"; };
+		68FB1A332605D8DA0090CC18 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		68FB1A382610B8D50090CC18 /* StopAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopAnnotation.swift; sourceTree = "<group>"; };
+		68FB1A3D2610BB3F0090CC18 /* QualkMapEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QualkMapEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +109,15 @@
 			children = (
 				6896EC1825F6BFDD00D0D16B /* GenerateMapPathApp.swift */,
 				6896EC1A25F6BFDD00D0D16B /* ContentView.swift */,
+				68FB1A3D2610BB3F0090CC18 /* QualkMapEditView.swift */,
+				68FB1A332605D8DA0090CC18 /* MapView.swift */,
+				68FB1A2E2605D0B40090CC18 /* RoutePlanner.swift */,
+				68FB1A292605D0880090CC18 /* LocationManager.swift */,
 				6896EC1C25F6BFE000D0D16B /* Assets.xcassets */,
 				6896EC2125F6BFE000D0D16B /* Info.plist */,
 				6896EC1E25F6BFE000D0D16B /* Preview Content */,
+				68FB1A382610B8D50090CC18 /* StopAnnotation.swift */,
+				6898BD472611BC1500C6AF31 /* UserAnnotation.swift */,
 			);
 			path = GenerateMapPath;
 			sourceTree = "<group>";
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68FB1A2F2605D0B40090CC18 /* RoutePlanner.swift in Sources */,
+				68FB1A392610B8D50090CC18 /* StopAnnotation.swift in Sources */,
+				6898BD482611BC1500C6AF31 /* UserAnnotation.swift in Sources */,
 				6896EC1B25F6BFDD00D0D16B /* ContentView.swift in Sources */,
+				68FB1A342605D8DA0090CC18 /* MapView.swift in Sources */,
+				68FB1A3E2610BB3F0090CC18 /* QualkMapEditView.swift in Sources */,
 				6896EC1925F6BFDD00D0D16B /* GenerateMapPathApp.swift in Sources */,
+				68FB1A2A2605D0880090CC18 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
